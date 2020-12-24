@@ -11,7 +11,7 @@ describe('E2E SDET--SG Test', function() {
     it('Go to buy Aliexpress', function () {
         homePage.search();
         whoSalePage.nextPage();
-        whoSalePage.buy();
+        whoSalePage.buyProduct();
         itemPage.quantityProduct();
     });    
 });

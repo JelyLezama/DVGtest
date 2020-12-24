@@ -10,10 +10,10 @@ class ItemPage {
                 const divNumber = parseInt(number.text());
                 cy.log(divNumber.toString());
                 if(divNumber >= 1) {
-                    cy.log('Buy to product');
+                    cy.log('You can buy the product');
                  }
                 else {
-                    cy.log('Productxo no disponible'); 
+                    cy.log('Product not available'); 
                  }
        });
     }
