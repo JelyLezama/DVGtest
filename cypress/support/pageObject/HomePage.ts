@@ -10,11 +10,13 @@ class HomePage {
    
     #TEXT = "Iphone";
 
+    //Go to home page
     public open(): void {
         cy.visit(this.#baseUrl);
-        cy.get(this.#logo).should('be.visible');
+        cy.get(this.#logo).should('be.visible'); //Validation
      }
 
+     // Search within the web page
      public search(): void {
         cy.get(this.#search).clear().type(this.#TEXT);
         cy.get(this.#searchButton).click();
