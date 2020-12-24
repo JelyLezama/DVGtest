@@ -1,0 +1,5 @@
+{
+    "base_url": "www.aliexpress.com",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 2000
+}
